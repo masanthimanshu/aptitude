@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aptitude Test</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aladin&family=Lato:wght@100;300;400;700;900">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="timer()">
+  <section id="popup" class="popup_hide">
+    <div>
+      <h2>Your score is <span id="showScore"> 20 </span> out of 40 <span class="reload" onclick="location.reload()"> 🔄 </span> </h2>
+    </div>
+  </section>
+  <h1> Aptitude Test </h1>
+  <hr> <br><br>
+  <div class="clock">
+    <p> 🕒 &nbsp; </p>
+    <p id="timeOne">01 :</p>
+    <p id="timeTwo">30</p>
+  </div>
+  <div class="question">
+    <h2 id="question"> Question Text Goes Here </h2>
+  </div>
+  <section>
+    <table class="answerOptions">
+      <tr>
+        <td>
+          <input type="radio" name="answers" id="Options" value="Answer A">
+          <h3 id="opt1"> Option One </h3>
+        </td>
+        <td>
+          <input type="radio" name="answers" id="Options" value="Answer B">
+          <h3 id="opt2"> Option Two </h3>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="radio" name="answers" id="Options" value="Answer C">
+          <h3 id="opt3"> Option Three</h3>
+        </td>
+        <td>
+          <input type="radio" name="answers" id="Options" value="Answer D">
+          <h3 id="opt4"> Option Four </h3>
+        </td>
+      </tr>
+    </table>
+  </section>
+  <br><br>
+  <section>
+    <table>
+      <tr>
+        <td>
+          <button onclick="submit()"> Submit </button>
+        </td>
+        <td>
+          <button onclick="skip()"> Skip </button>
+        </td>
+      </tr>
+    </table>
+  </section>
+  <br><br><br>
+  <section>
+    <table class="kepper">
+      <tr>
+        <td id="1" class="border" > 1 </td>
+        <td id="2" > 2 </td>
+        <td id="3" > 3 </td>
+        <td id="4" > 4 </td>
+        <td id="5" > 5 </td>
+        <td id="6" > 6 </td>
+        <td id="7" > 7 </td>
+        <td id="8" > 8 </td>
+        <td id="9" > 9 </td>
+        <td id="10" > 10 </td>
+        <td id="11" > 11 </td>
+        <td id="12" > 12 </td>
+        <td id="13" > 13 </td>
+        <td id="14" > 14 </td>
+        <td id="15" > 15 </td>
+        <td id="16" > 16 </td>
+        <td id="17" > 17 </td>
+        <td id="18" > 18 </td>
+        <td id="19" > 19 </td>
+        <td id="20" > 20 </td>
+      </tr>
+    </table>
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

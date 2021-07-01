@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  font-family: Lato;
+  background-color: #0a1931;
+  color: #feddbe;
+  margin: 30px 300px;
+}
+
+h1 {
+  margin: 0;
+  font-family: Aladin;
+  letter-spacing: 5px;
+  font-size: 7.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+hr {
+  border: 0;
+  border-top: 7.5px dotted;
+  opacity: 0.25;
+  width: 10%;
+}
+
+h3 {
+  display: inline-block;
+  font-family: Lato;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+table {
+  margin: auto;
+}
+
+.answerOptions td {
+  padding: 2px 20px;
+}
+button {
+  border: 1.5px Solid #feddbe;
+  border-radius: 5px;
+  background: Transparent;
+  margin: 10px;
+  padding: 5px;
+}
+
+button {
+  color: #feddbe;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #feddbe;
+  color: #0a1931;
+}
+
+.kepper td {
+  height: 30px;
+  width: 30px;
+
+}
+
+.border {
+  border: 1px Solid #feddbe;
+  border-radius: 100%;
+}
+
+.clock {
+  text-align: right;
+}
+
+.clock p {
+  display: inline-block;
+}
+
+.front tr td p {
+  font-weight: 400;
+}
+
+.popup_hide {
+  display: none;
+}
+
+.popup_show {
+  background-color: #0a1931;
+  height: 98vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+}
+
+.reload:hover {
+  cursor: pointer;
+}
